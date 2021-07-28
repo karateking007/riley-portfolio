@@ -8,7 +8,7 @@ function Contact() {
                 <div className="row align-items-center d-flex h-100">
 
                     <div className="col-lg-5">
-                        <h2 className="text-center text-uppercase">Contact</h2>
+                        <h2 className="secondary-headline text-center text-uppercase">Contact</h2>
                         <div className="line mb-3"></div>
                         <h3 className="sub-text text-center">Let's get in touch!</h3>
                         <form name="contact" method="POST" data-netlify="true">

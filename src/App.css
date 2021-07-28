@@ -97,11 +97,6 @@ a {
 
 /* Home */
 
-.home {
-  background: var(--orange);
-  height: calc(100vh - 59px);
-}
-
 #home-container {
   height: calc(100vh - 133px);
 }
@@ -261,6 +256,10 @@ a {
 	display: block;
 }
 
+.work-container {
+  height: calc(100vh - 133px);
+}
+
 /* Contact */
 .contact {
   background: var(--orange);
@@ -305,5 +304,97 @@ a {
 @media (min-width: 1200px) {
   .container{
       max-width: 1024px;
+  }
+  .logo-name {
+    margin: auto;
+    text-align: center;
+    margin-left: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .nav-container {
+    justify-content: space-around !important;
+  }
+  .navbar-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .logo-name {
+    font-size: 2rem;
+  }
+
+  /* Home */
+  #home-container {
+    height: calc(100vh - 154px);
+  }
+
+  .headline {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 1rem !important;
+  }
+
+  .headline-sub-text {
+    text-align: center;
+    margin: 0 !important;
+    margin-top: 5px !important;
+  }
+
+  #home-button {
+    margin: 0 !important;
+    margin-top: 10px !important;
+    padding: 7px 14px;
+  }
+
+  .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .graphic {
+    padding: 0 1rem;
+    height: auto;
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  .col-graphic {
+    height: auto !important;
+  }
+
+  /* Work */
+  .work-container {
+    height: calc(100vh - 154px);
+  }
+
+  .secondary-headline {
+    padding: 0px !important;
+    margin-top: 1rem;
+  }
+  .line {
+    margin-bottom: 2rem !important;
+  }
+  #portfolio-container {
+    padding: 0 !important;
+  }
+  .portfolio-row-bottom {
+    margin-bottom: 3rem !important;
+  }
+  .portfolio-col {
+    padding: 0 !important;
+  }
+  /* Contact */
+  .mail-graphic {
+    margin-bottom: 2.3rem !important;
   }
 }

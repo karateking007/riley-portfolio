@@ -12,12 +12,12 @@ function Navigation(props) {
 
     return (
         <div className="navigation">
-            <nav id="testid" className="navbar navbar-expand navbar-dark bg-dark">
-                <div className="container d-flex flex-row justify-content-between d-flex align-items-center">
+            <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+                <div className="container nav-container d-flex flex-row justify-content-between d-flex align-items-center">
 
                     <div className="logo">
-                        <li>
-                            <h1 className="logo-name">Riley Litchfield
+                        <li className="list-item">
+                            <h1 className="logo-name navbar-brand">Riley Litchfield
                             </h1>
                         </li></div>
                     <div>
