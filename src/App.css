@@ -317,6 +317,10 @@ a {
   .nav-container {
     justify-content: space-around !important;
   }
+
+  .nav-item {
+    margin-left: 0 !important;
+  }
   .navbar-nav{
     width: 100%;
     display: flex;
@@ -365,7 +369,7 @@ a {
     padding: 0 1rem;
     height: auto;
     width: 100%;
-    margin: 0 !important;
+    margin-top: 1rem !important;
   }
 
   .col-graphic {
