@@ -11,48 +11,25 @@ function Navigation(props) {
     // getNavHeight();
 
     return (
-        <div className="navigation">
-            <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-                <div className="container nav-container d-flex flex-row justify-content-between d-flex align-items-center">
-
-                    <div className="logo">
-                        <li className="list-item">
-                            <h1 className="logo-name navbar-brand">Riley Litchfield
-                            </h1>
-                        </li></div>
-                    <div>
-                        <ul className="navbar-nav ml-auto">
-
-                            <li
-                                className={`nav-item  ${props.location.pathname === "/" ? "active" : ""
-                                    }`}
-                            >
-                                <Link className="nav-link" to="/">
-                                    Home
-                                </Link>
-                            </li>
-                            <li
-                                className={`nav-item  ${props.location.pathname === "/work" ? "active" : ""
-                                    }`}
-                            >
-                                <Link className="nav-link" to="/work">
-                                    Work
-                                </Link>
-                            </li>
-                            <li
-                                className={`nav-item  ${props.location.pathname === "/contact" ? "active" : ""
-                                    }`}
-                            >
-                                <Link className="nav-link" to="/contact">
-                                    Contact
-                                </Link>
-                            </li>
-
-                        </ul>
-                    </div>
+        <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-1">
+            <div className="container">
+                <a href="#" className="navbar-brand fs-2">Riley Litchfield</a>
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span className="navbar-toggler-icon"></span></button>
+                <div className="collapse navbar-collapse text-center" id="navmenu">
+                    <ul className="navbar-nav ms-auto">
+                        <li className="nav-item">
+                            <a href="/" className="nav-link">Home</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="/work" className="nav-link">My Work</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="/contact" className="nav-link">Contact</a>
+                        </li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     );
 }
 
