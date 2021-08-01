@@ -1,14 +1,7 @@
 import React from "react";
-import { Link, withRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 function Navigation(props) {
-    // function getNavHeight() {
-    //     var nav = document.querySelector('.navbar');
-    //     var navHeight = nav.offsetHeight;
-    //     console.log(navHeight + "px");
-    // }
-
-    // getNavHeight();
 
     return (
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-1">
@@ -30,7 +23,7 @@ function Navigation(props) {
                 </div>
             </div>
         </nav>
-    );
+    )
 }
 
 export default withRouter(Navigation);
