@@ -6,6 +6,12 @@
   --blue: #022FA0;
   --orange: #FF9F1A;
   --white: #FFFFFF;
+  --green: #19A673;
+  --black: #000000;
+}
+
+body {
+  max-height: calc(100vh - 106px);
 }
 
 .App {
@@ -31,13 +37,41 @@ a {
   color: var(--white);
   font-weight: 500;
   border-radius: 180px;
-  padding: 10px 20px;
+  padding: 8px 20px;
   font-size: 1.2rem;
 }
 
 .btn-blue:hover {
   background: var(--white);
   color: var(--blue);
+}
+
+.btn-white {
+  background: var(--white);
+  color: var(--black);
+  font-weight: 500;
+  border-radius: 180px;
+  padding: 8px 20px;
+  font-size: 1.2rem;
+}
+
+.btn-white:hover {
+  background: var(--green);
+  color: var(--white);
+}
+
+.btn-black {
+  background: var(--black);
+  color: var(--white);
+  font-weight: 500;
+  border-radius: 180px;
+  padding: 8px 20px;
+  font-size: 1.2rem;
+}
+
+.btn-black:hover {
+  background: var(--green);
+  color: var(--white);
 }
 
 .line {
@@ -53,7 +87,12 @@ a {
   background: var(--orange);
 }
 
-/* Portfolio animations */
+/* Work */
+.card {
+  background: var(--white);
+}
+
+/* Work animations */
 /* Thanks to GitHub user IanLunn */
 
 .hvr-bounce-to-bottom {
@@ -142,6 +181,7 @@ a {
 	position: absolute;
 	top: 50%;
 	left: 50%;
+  width: 85%;
 	-moz-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
@@ -165,10 +205,34 @@ a {
   #home-graphic {
     max-width: 75%;
   }
+  .col {
+    justify-content: center;
+  }
 }
 
 @media (min-width: 992px) {
   #home-graphic {
     max-width: 50%;
+  }
+  .row {
+    width: 85%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .row {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1601px) {
+  .row {
+    width: 100%;
   }
 }
