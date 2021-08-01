@@ -1,5 +1,5 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
+import { Link, withRouter } from "react-router-dom";
 
 function Navigation(props) {
 
@@ -11,13 +11,13 @@ function Navigation(props) {
                 <div className="collapse navbar-collapse text-center" id="navmenu">
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
-                            <a href="/" className="nav-link">Home</a>
+                            <Link to="/" className="nav-link">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="/work" className="nav-link">My Work</a>
+                            <Link to="/work" className="nav-link">Work</Link>
                         </li>
                         <li className="nav-item">
-                            <a href="/contact" className="nav-link">Contact</a>
+                            <Link to="/contact" className="nav-link">Contact</Link>
                         </li>
                     </ul>
                 </div>
