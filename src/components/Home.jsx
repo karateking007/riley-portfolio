@@ -1,10 +1,9 @@
 import React from "react";
 import graphic from '../img/graphic.png';
-import { Link } from "react-router-dom";
 
 function Home() {
     return (
-        <section className="text-light p-sm-5 p-5 mt-lg-5 text-center text-lg-start">
+        <section className="text-light p-sm-5 p-5 text-center text-lg-start">
             <div className="container">
                 <div className="d-lg-flex align-items-center justify-content-between">
                     <div>
