@@ -10,7 +10,7 @@ function Work() {
             <div className="container">
                 <h2 className="text-center text-light text-uppercase">My work</h2>
                 <div className="line mb-4"></div>
-                <div className="row mx-auto">
+                <div className="row mx-auto" id="work-row">
                     {/* For larger screens */}
                     <div className="col-lg-6 d-flex align-items-center justify-content-lg-end justify-content-md-center mb-0 mb-lg-4">
                         <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
