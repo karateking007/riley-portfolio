@@ -41,10 +41,11 @@ function Contact() {
                                 <div className="form-group">
                                     <label className="form-label mb-1">Message</label><textarea className="form-control shadow-none d-block mb-3" name="message"></textarea>
                                 </div>
+                                <button type="submit" class="btn btn-green mx-auto">Submit</button>
                             </form>
                         </div>
                         <div class="modal-footer">
-                            <button type="submit" class="btn btn-green mx-auto" id="contact-button">Submit</button>
+
                         </div>
                     </div>
                 </div>
