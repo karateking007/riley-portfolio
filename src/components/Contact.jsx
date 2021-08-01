@@ -44,7 +44,7 @@ function Contact() {
                             </form>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-green mx-auto" id="contact-button">Submit</button>
+                            <button type="submit" class="btn btn-green mx-auto" id="contact-button">Submit</button>
                         </div>
                     </div>
                 </div>
