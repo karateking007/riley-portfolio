@@ -22,6 +22,10 @@ body {
   background: var(--orange);
 }
 
+section {
+  min-height: calc(100vh - 106px);
+}
+
 h2 {
   font-weight: 500;
   font-size: 3rem;
@@ -71,6 +75,20 @@ a {
 
 .btn-black:hover {
   background: var(--green);
+  color: var(--white);
+}
+
+.btn-green {
+  background: var(--green);
+  color: var(--white);
+  font-weight: 500;
+  border-radius: 180px;
+  padding: 8px 20px;
+  font-size: 1.2rem;
+}
+
+.btn-green:hover {
+  background: var(--black);
   color: var(--white);
 }
 
@@ -199,7 +217,23 @@ a {
 	display: block;
 }
 
+/* Contact */
+.mail-graphic {
+  width: 30%;
+}
+
 /* Media Queries */
+@media (min-height: 800px) and (max-width: 768px) {
+  #home-graphic {
+    margin-top: 4rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+section {
+  min-height: calc(100vh - 95px);
+}
+}
 
 @media (min-width: 768px) {
   #home-graphic {
@@ -209,6 +243,12 @@ a {
     justify-content: center;
   }
 }
+
+@media (max-width: 992px) {
+  .mail-graphic {
+    width: 80%;
+  }
+  }
 
 @media (min-width: 992px) {
   #home-graphic {
@@ -222,6 +262,12 @@ a {
 @media (min-width: 1200px) {
   .row {
     width: 70%;
+  }
+  #lg-heading {
+    font-size: 7rem;
+  }
+  #lg-sub-heading {
+    font-size: 1.8rem;
   }
 }
 
