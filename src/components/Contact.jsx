@@ -10,7 +10,7 @@ function Contact() {
                 <div className="row" id="contact-row">
                     <div className="col-md-6 d-flex justify-content-center">
 
-                        <form name="contact" method="POST" data-netlify="true" onSubmit="submit" action="/Success/">
+                        <form name="contact" method="POST" data-netlify="true" onSubmit="submit" action="/success">
                             <input type="hidden" name="form-name" value="contact" />
                             <div className="form-group">
                                 <label className="form-label mb-1" htmlFor="name">Name</label>
