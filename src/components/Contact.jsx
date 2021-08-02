@@ -9,7 +9,7 @@ function Contact() {
                 <div className="line mb-4"></div>
                 <div className="row" id="contact-row">
                     <div className="col-md-6 d-flex justify-content-center">
-                        <form name="contact" action="POST" data-netlify="true">
+                        <form name="contact" method="POST" data-netlify="true">
                             <div className="form-group">
                                 <label className="form-label mb-1">Name</label>
                                 <input className="form-control shadow-none d-block mb-3" type="text" name="name" />
