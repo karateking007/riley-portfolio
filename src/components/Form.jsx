@@ -1,8 +1,17 @@
 import React from "react";
 
 function Form() {
+    const [success, setSuccess] = useState(false);
+
+    useEffect(() => {
+        if (window.location.search.includes('success=true')) {
+            setSuccess(true);
+        }
+    }, []);
+
+
     return (
-        <form name="contact" method="post" action="/">
+        <form name="contact" method="post" action="/contact/?success=true">
             <input type="hidden" name="form-name" value="contact" />
             <p>
                 <label htmlFor="name">Name</label> <br />
