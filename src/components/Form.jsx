@@ -12,9 +12,9 @@ function Form() {
 
     return (
         <form name="contact" method="post" action="/contact/?success=true">
-            {success && (
+            {/* {success && (
                 <p style={{ color: "green" }}>Thanks for your message! </p>
-            )}
+            )} */}
             <input type="hidden" name="form-name" value="contact" />
             <p>
                 <label htmlFor="name">Name</label> <br />
