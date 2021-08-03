@@ -1,5 +1,7 @@
 import React from "react";
+import Form from "./Form";
 import mail from '../img/mail.png';
+
 
 function Contact() {
     return (
@@ -9,8 +11,8 @@ function Contact() {
                 <div className="line mb-4"></div>
                 <div className="row" id="contact-row">
                     <div className="col-md-6 d-flex justify-content-center">
-
-                        <form name="contact" method="POST" data-netlify="true" onSubmit="submit" action="/success">
+                        <Form />
+                        {/* <form name="contact" method="POST" data-netlify="true" onSubmit="submit" action="/success">
                             <input type="hidden" name="form-name" value="contact" />
                             <div className="form-group">
                                 <label className="form-label mb-1" htmlFor="name">Name</label>
@@ -28,7 +30,7 @@ function Contact() {
                                 <label className="form-label mb-1" htmlFor="message">Message</label><textarea className="form-control shadow-none d-block mb-3" name="message"></textarea>
                             </div>
                             <div className="center-btn"><button type="submit" class="btn btn-green mx-auto">Submit</button></div>
-                        </form>
+                        </form> */}
 
                     </div>
                     <div className="col-md-6 d-flex align-items-center justify-content-center mt-5 mt-md-0"><img
