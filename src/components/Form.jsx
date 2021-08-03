@@ -10,7 +10,7 @@ function Form() {
 
 
     return (
-        <form name="contact" method="post" action="/contact/?success=true">
+        <form name="contact" method="post" action="/form/?success=true">
             <input type="hidden" name="form-name" value="contact" />
             <p>
                 <label htmlFor="name">Name</label> <br />
