@@ -20,7 +20,7 @@ class Form extends React.Component {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...this.state })
         })
-            .then(() => alert("Success!"))
+            .then(() => alert("Success! Your message has been submitted."))
             .catch(error => alert(error));
 
         e.preventDefault();
@@ -32,7 +32,7 @@ class Form extends React.Component {
         const { name, company, email, message } = this.state;
         return (
 
-            <form name="contact" method="POST" data-netlify="true" onSubmit={this.handleSubmit} action="/success">
+            <form className="text-light" name="contact" method="POST" data-netlify="true" onSubmit={this.handleSubmit} action="/success">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group">
                     <label className="form-label mb-1" htmlFor="name">Name</label>
@@ -52,26 +52,6 @@ class Form extends React.Component {
                 <div className="center-btn"><button type="submit" class="btn btn-green mx-auto">Submit</button></div>
             </form>
 
-            // <form onSubmit={this.handleSubmit}>
-            //     <p>
-            //         <label>
-            //             Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
-            //         </label>
-            //     </p>
-            //     <p>
-            //         <label>
-            //             Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
-            //         </label>
-            //     </p>
-            //     <p>
-            //         <label>
-            //             Message: <textarea name="message" value={message} onChange={this.handleChange} />
-            //         </label>
-            //     </p>
-            //     <p>
-            //         <button type="submit">Send</button>
-            //     </p>
-            // </form>
         );
     }
 }
