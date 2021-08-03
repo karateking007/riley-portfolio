@@ -2,7 +2,7 @@ import React from "react";
 
 function Form() {
     return (
-        <form name="contact" method="post">
+        <form name="contact" method="post" action="/">
             <input type="hidden" name="form-name" value="contact" />
             <p>
                 <label htmlFor="name">Name</label> <br />
