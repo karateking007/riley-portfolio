@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, withRouter } from "react-router-dom";
 import graphic from '../img/graphic.png';
 
 function Home() {
@@ -9,7 +10,7 @@ function Home() {
                     <div className="mb-3 mb-md-4 mb-lg-0">
                         <h1 className="display-1 fw-bold" id="lg-heading">Hi,<br />I'm Riley</h1>
                         <p className="lead my-4 fw-bold" id="lg-sub-heading">A web developer.</p>
-                        <button className="btn btn-green">View My Work</button>
+                        <Link to="/work" className="nav-link"><button className="btn btn-green">View My Work</button></Link>
                     </div>
                     <img className="img-fluid w-100 mt-4 mt-lg-0 mx-auto mx-lg-0 px-2" id="home-graphic" src={graphic} alt="Man using computer." />
                 </div>

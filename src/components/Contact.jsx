@@ -10,10 +10,10 @@ function Contact() {
                 <h2 className="text-center text-light text-uppercase">Contact</h2>
                 <div className="line mb-4"></div>
                 <div className="row" id="contact-row">
-                    <div className="col-md-6 d-flex justify-content-center">
+                    <div className="col-lg-6 d-flex justify-content-center justify-content-lg-end pe-lg-5">
                         <Form />
                     </div>
-                    <div className="col-md-6 d-flex align-items-center justify-content-center mt-5 mt-md-0"><img
+                    <div className="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start mt-5 mt-lg-0 ps-lg-5"><img
                         className="mail-graphic img-fluid"
                         src={mail}
                         alt=""

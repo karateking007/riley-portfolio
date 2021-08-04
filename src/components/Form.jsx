@@ -20,7 +20,7 @@ class Form extends React.Component {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...this.state })
         })
-            .then(() => alert("Success! Your message has been submitted."))
+            .then(() => alert("Your message has been submitted. I will get back with you ASAP!"))
             .catch(error => alert(error));
 
         e.preventDefault();
@@ -32,7 +32,7 @@ class Form extends React.Component {
         const { name, company, email, message } = this.state;
         return (
 
-            <form className="text-light" name="contact" method="POST" data-netlify="true" onSubmit={this.handleSubmit} action="/success">
+            <form className="text-light fw-bold w-75" name="contact" method="POST" data-netlify="true" onSubmit={this.handleSubmit} action="/success">
                 <input type="hidden" name="form-name" value="contact" />
                 <div className="form-group">
                     <label className="form-label mb-1" htmlFor="name">Name</label>
