@@ -13,7 +13,7 @@ function Contact() {
                     <div className="col-lg-6 d-flex justify-content-center justify-content-lg-end pe-lg-5">
                         <Form />
                     </div>
-                    <div className="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start mt-5 mt-lg-0 ps-lg-5"><img
+                    <div className="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-start mt-5 mb-4 mt-lg-0 ps-lg-5"><img
                         className="mail-graphic img-fluid"
                         src={mail}
                         alt=""

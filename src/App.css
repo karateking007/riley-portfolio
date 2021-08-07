@@ -11,7 +11,7 @@
 }
 
 body {
-  max-height: calc(100vh - 106px);
+  max-height: calc(100vh - 114px);
 }
 
 .App {
@@ -23,7 +23,7 @@ body {
 }
 
 section {
-  min-height: calc(100vh - 106px);
+  min-height: calc(100vh - 114px);
 }
 
 h2 {
@@ -235,7 +235,7 @@ a {
 
 @media (max-width: 768px) {
 section {
-  min-height: calc(100vh - 95px);
+  min-height: calc(100vh - 103px);
 }
 }
 
