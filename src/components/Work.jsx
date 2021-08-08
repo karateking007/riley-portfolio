@@ -6,7 +6,7 @@ import crypto from '../img/crypto.png';
 
 const markdownLink = "https://codepen.io/karateking/full/vYmYpqq";
 const quoteLink = "https://boring-euler-78b0c6.netlify.app/";
-const weatherLink = "https://karateking007.github.io/weatherApp/";
+const weatherLink = "https://rileylitchfield.github.io/weatherApp/";
 const cryptoLink = "https://stocktocrypto.com/";
 
 
