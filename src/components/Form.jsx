@@ -12,7 +12,7 @@ class Form extends React.Component {
         this.state = { name: "", company: "", email: "", message: "" };
     }
 
-    /* Here’s the juicy bit for posting the form submission */
+    /* Posting the form submission */
 
     handleSubmit = e => {
         fetch("/", {
