@@ -42,7 +42,7 @@ function Work() {
                         <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
                             <img src={quote} className="hvrbox-layer_bottom" />
                             <div className="hvrbox-layer_top">
-                                <div className="hvrbox-text"><h5 class="fw-bold">Random Quote Generator</h5><p>ZenQuotes API, AJAX, Bootstrap, jQuery, and SCSS</p>
+                                <div className="hvrbox-text"><h5 class="fw-bold">Random Quote Generator</h5><p>React.js, API-Ninjas, AJAX, Bootstrap, jQuery, and SCSS</p>
                                     <a href={quoteLink} className="btn btn-white" target="_blank">View Live</a></div>
                             </div>
                         </div>
