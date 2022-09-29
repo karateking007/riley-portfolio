@@ -22,7 +22,7 @@ function Work() {
                         <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
                             <img src={markdownPreview} className="hvrbox-layer_bottom" />
                             <div className="hvrbox-layer_top">
-                                <div className="hvrbox-text"><h5 class="fw-bold">Markdown Previewer</h5><p>React, Bootstrap, & SCSS</p>
+                                <div className="hvrbox-text"><h5 class="fw-bold">Markdown Previewer</h5><p>React.js, Bootstrap, & SCSS</p>
                                     <a href={markdownLink} className="btn btn-white" target="_blank">View Live</a>
                                 </div>
                             </div>
