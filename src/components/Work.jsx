@@ -23,7 +23,7 @@ function Work() {
                             <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
                                 <img src={weather} className="hvrbox-layer_bottom" />
                                 <div className="hvrbox-layer_top">
-                                    <div className="hvrbox-text"><h5 class="fw-bold">Weather App</h5><p>Javascript, React.js and OpenWeatherMap API</p><a href={weatherLink} className="btn btn-white" target="_blank">View Live</a></div>
+                                    <div className="hvrbox-text"><h5 class="fw-bold">Weather App</h5><p>React.js, Bootstrap and OpenWeatherMap API</p><a href={weatherLink} className="btn btn-white" target="_blank">View Live</a></div>
                                 </div>
                             </div>
                             {/* For tablet and mobile */}
@@ -31,7 +31,7 @@ function Work() {
                                 <div className="card-body text-center text-dark">
                                     <img class="card-img-top" src={weather} alt="Weather App" />
                                     <h3 className="card-title my-3 d-lg-none fw-bold">Weather App</h3>
-                                    <p className="card-text mt-3 mt-lg-0 d-lg-none">Javascript, React.js and OpenWeatherMap API</p>
+                                    <p className="card-text mt-3 mt-lg-0 d-lg-none">React.js, Bootstrap and OpenWeatherMap API</p>
                                     <a href={weatherLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
                                 </div>
                             </div></div>
