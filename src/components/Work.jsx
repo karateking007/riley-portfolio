@@ -18,12 +18,13 @@ function Work() {
                 <div className="line mb-4"></div>
                 <div className="row mx-auto" id="work-row">
                     {/* For larger screens */}
-                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-end justify-content-md-center">
+                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-end justify-content-md-center mb-0 mb-lg-4">
                         <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
                             <img src={weather} className="hvrbox-layer_bottom" />
                             <div className="hvrbox-layer_top">
                                 <div className="hvrbox-text"><h5 class="fw-bold">Weather App</h5><p>React.js, Bootstrap and OpenWeatherMap API</p><a href={weatherLink} className="btn btn-white" target="_blank">View Live</a></div>
                             </div>
+
                         </div>
                         {/* For tablet and mobile */}
                         <div className="card bg-light d-lg-none border-0 my-3">
@@ -32,25 +33,7 @@ function Work() {
                                 <h3 className="card-title my-3 d-lg-none fw-bold">Weather App</h3>
                                 <p className="card-text mt-3 mt-lg-0 d-lg-none">React.js, Bootstrap and OpenWeatherMap API</p>
                                 <a href={weatherLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
-                            </div>
-                        </div></div>
-                    {/* For larger screens */}
-                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-end justify-content-md-center mb-0 mb-lg-4">
-                        <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
-                            <img src={markdownPreview} className="hvrbox-layer_bottom" />
-                            <div className="hvrbox-layer_top">
-                                <div className="hvrbox-text"><h5 class="fw-bold">Markdown Previewer</h5><p>React.js, Bootstrap, & SCSS</p>
-                                    <a href={markdownLink} className="btn btn-white" target="_blank">View Live</a>
-                                </div>
-                            </div>
-                        </div>
-                        {/* For tablet and mobile */}
-                        <div className="card bg-light d-lg-none border-0 my-3">
-                            <div className="card-body text-center text-dark">
-                                <img class="card-img-top" src={markdownPreview} alt="React Markdown Previewer" />
-                                <h3 className="card-title my-3 d-lg-none fw-bold">Markdown Previewer</h3>
-                                <p className="lead card-text mt-3 mt-lg-0 d-lg-none">React, Bootstrap, & SCSS.</p>
-                                <a href={markdownLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
+
                             </div>
                         </div>
                     </div>
@@ -70,6 +53,27 @@ function Work() {
                                 <h3 className="card-title my-3 d-lg-none fw-bold">Random Quote Generator</h3>
                                 <p className="card-text mt-3 mt-lg-0 d-lg-none">ZenQuotes API, AJAX, Bootstrap, jQuery, and SCSS</p>
                                 <a href={quoteLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
+                            </div>
+                        </div></div>
+                    {/* </div>
+                <div className="row  mx-auto my-3"> */}
+                    {/* For larger screens */}
+                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-end justify-content-md-center">
+                        <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
+                            <img src={markdownPreview} className="hvrbox-layer_bottom" />
+                            <div className="hvrbox-layer_top">
+                                <div className="hvrbox-text"><h5 class="fw-bold">Markdown Previewer</h5><p>React.js, Bootstrap, & SCSS</p>
+                                    <a href={markdownLink} className="btn btn-white" target="_blank">View Live</a>
+                                </div>
+                            </div>
+                        </div>
+                        {/* For tablet and mobile */}
+                        <div className="card bg-light d-lg-none border-0 my-3">
+                            <div className="card-body text-center text-dark">
+                                <img class="card-img-top" src={markdownPreview} alt="React Markdown Previewer" />
+                                <h3 className="card-title my-3 d-lg-none fw-bold">Markdown Previewer</h3>
+                                <p className="lead card-text mt-3 mt-lg-0 d-lg-none">React, Bootstrap, & SCSS.</p>
+                                <a href={markdownLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
                             </div>
                         </div></div>
                     {/* For larger screens */}
