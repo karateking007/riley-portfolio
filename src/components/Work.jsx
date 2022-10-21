@@ -1,12 +1,12 @@
 import React from "react";
 import markdownPreview from '../img/markdown.png';
 import quote from '../img/quote.png';
-import weather from '../img/weather.png';
+import weather from '../img/weather2.png';
 import crypto from '../img/crypto.png';
 
 const markdownLink = "https://codepen.io/karateking/full/vYmYpqq";
 const quoteLink = "https://boring-euler-78b0c6.netlify.app/";
-const weatherLink = "https://rileylitchfield.github.io/weatherApp/";
+const weatherLink = "https://poetic-manatee-1b1762.netlify.app/";
 const cryptoLink = "https://stocktocrypto.com/";
 
 
