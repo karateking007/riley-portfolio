@@ -22,7 +22,7 @@ function Work() {
                         <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
                             <img src={weather} className="hvrbox-layer_bottom" />
                             <div className="hvrbox-layer_top">
-                                <div className="hvrbox-text"><h5 class="fw-bold">Weather App</h5><p>React.js, Bootstrap and OpenWeatherMap API</p><a href={weatherLink} className="btn btn-white" target="_blank">View Live</a></div>
+                                <div className="hvrbox-text"><h5 class="fw-bold">Weather App</h5><p>React.js, Bootstrap and API Integration</p><a href={weatherLink} className="btn btn-white" target="_blank">View Live</a></div>
                             </div>
 
                         </div>
@@ -31,7 +31,7 @@ function Work() {
                             <div className="card-body text-center text-dark">
                                 <img class="card-img-top" src={weather} alt="Weather App" />
                                 <h3 className="card-title my-3 d-lg-none fw-bold">Weather App</h3>
-                                <p className="card-text mt-3 mt-lg-0 d-lg-none">React.js, Bootstrap and OpenWeatherMap API</p>
+                                <p className="card-text mt-3 mt-lg-0 d-lg-none">React.js, Bootstrap and API Integration</p>
                                 <a href={weatherLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
 
                             </div>
@@ -42,7 +42,7 @@ function Work() {
                         <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
                             <img src={quote} className="hvrbox-layer_bottom" />
                             <div className="hvrbox-layer_top">
-                                <div className="hvrbox-text"><h5 class="fw-bold">Random Quote Generator</h5><p>React.js, API-Ninjas, AJAX, Bootstrap, jQuery, and SCSS</p>
+                                <div className="hvrbox-text"><h5 class="fw-bold">Random Quote Generator</h5><p>React.js, API Integration, AJAX, Bootstrap, jQuery, and SCSS</p>
                                     <a href={quoteLink} className="btn btn-white" target="_blank">View Live</a></div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ function Work() {
                             <div className="card-body text-center text-dark">
                                 <img class="card-img-top" src={quote} alt="Random Quote Generator" />
                                 <h3 className="card-title my-3 d-lg-none fw-bold">Random Quote Generator</h3>
-                                <p className="card-text mt-3 mt-lg-0 d-lg-none">ZenQuotes API, AJAX, Bootstrap, jQuery, and SCSS</p>
+                                <p className="card-text mt-3 mt-lg-0 d-lg-none">React.js, API Integration, AJAX, Bootstrap, jQuery, and SCSS</p>
                                 <a href={quoteLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
                             </div>
                         </div></div>
@@ -81,7 +81,7 @@ function Work() {
                         <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
                             <img src={crypto} className="hvrbox-layer_bottom" />
                             <div className="hvrbox-layer_top">
-                                <div className="hvrbox-text"><h5 class="fw-bold">Crypto Vs. Stocks Graph</h5><p>Twelvedata API, Vanilla JS & Charts.js</p><a href={cryptoLink} className="btn btn-white" target="_blank">View Live</a></div>
+                                <div className="hvrbox-text"><h5 class="fw-bold">Crypto Vs. Stocks Graph</h5><p>API Integration, Vanilla JS & Charts.js</p><a href={cryptoLink} className="btn btn-white" target="_blank">View Live</a></div>
                             </div>
                         </div>
                         {/* For tablet and mobile */}
@@ -89,7 +89,7 @@ function Work() {
                             <div className="card-body text-center text-dark">
                                 <img class="card-img-top" src={crypto} alt="Crypto Vs. Stocks Graph" />
                                 <h3 className="card-title my-3 d-lg-none fw-bold">Crypto Vs. Stocks Graph</h3>
-                                <p className="card-text mt-3 mt-lg-0 d-lg-none">Twelvedata API, Vanilla JS & Charts.js</p>
+                                <p className="card-text mt-3 mt-lg-0 d-lg-none">API Integration, Vanilla JS & Charts.js</p>
                                 <a href={cryptoLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
                             </div>
                         </div></div>
