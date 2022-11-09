@@ -6,9 +6,6 @@ function Navigation(props) {
     return (
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-1">
             <div className="container">
-                {$('.navbar-nav>li>*').on('click', function () {
-                    $('.navbar-collapse').collapse('hide');
-                })}
                 <Link to="/" className="navbar-brand fs-2">Riley Litchfield</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"><span className="navbar-toggler-icon"></span></button>
                 <div className="collapse navbar-collapse text-center" id="navmenu">
@@ -16,8 +13,8 @@ function Navigation(props) {
                         <li className="nav-item">
                             <Link to="/" className="nav-link">Home</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link to="/work" className="nav-link">Work</Link>
+                        <li className="nav-item navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                            <Link to="/work" className="nav-link ">Work</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/contact" className="nav-link">Contact</Link>
