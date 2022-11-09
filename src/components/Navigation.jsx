@@ -13,8 +13,8 @@ function Navigation(props) {
                         <li className="nav-item">
                             <Link to="/" className="nav-link">Home</Link>
                         </li>
-                        <li className="nav-item" data-bs-toggle="collapse" data-bs-target="#navmenu">
-                            <Link to="/work" className="nav-link ">Work</Link>
+                        <li className="nav-item">
+                            <Link to="/work" className="nav-link" data-bs-toggle="collapse" data-bs-target="#navmenu">Work</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/contact" className="nav-link">Contact</Link>
