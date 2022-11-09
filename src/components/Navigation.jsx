@@ -14,7 +14,7 @@ function Navigation(props) {
                             <Link to="/" className="nav-link">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/work" className="nav-link" data-bs-toggle="collapse" data-bs-target="#navmenu">Work</Link>
+                            <Link to="/work" className="nav-link navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navmenu">Work</Link>
                         </li>
                         <li className="nav-item">
                             <Link to="/contact" className="nav-link">Contact</Link>
