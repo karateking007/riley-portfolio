@@ -42,7 +42,7 @@ function Work() {
                         <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
                             <img src={quote} className="hvrbox-layer_bottom" />
                             <div className="hvrbox-layer_top">
-                                <div className="hvrbox-text"><h5 class="fw-bold">Random Quote Generator</h5><p>React.js, API Integration, AJAX, Bootstrap, jQuery, and SCSS</p>
+                                <div className="hvrbox-text"><h5 class="fw-bold">Random Quote Generator</h5><p>React.js, Redux, API Integration, AJAX, Bootstrap, jQuery, and SCSS</p>
                                     <a href={quoteLink} className="btn btn-white" target="_blank">View Live</a></div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ function Work() {
                             <div className="card-body text-center text-dark">
                                 <img class="card-img-top" src={quote} alt="Random Quote Generator" />
                                 <h3 className="card-title my-3 d-lg-none fw-bold">Random Quote Generator</h3>
-                                <p className="card-text mt-3 mt-lg-0 d-lg-none">React.js, API Integration, AJAX, Bootstrap, jQuery, and SCSS</p>
+                                <p className="card-text mt-3 mt-lg-0 d-lg-none">React.js, Redux, API Integration, AJAX, Bootstrap, jQuery, and SCSS</p>
                                 <a href={quoteLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
                             </div>
                         </div></div>
