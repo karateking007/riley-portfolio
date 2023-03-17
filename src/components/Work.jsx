@@ -4,32 +4,11 @@ import quote from '../img/quote.png';
 import weather from '../img/weather2.png';
 import crypto from '../img/crypto.png';
 
-const projects = [
-    {
-        title: "Weather App",
-        description: "React.js, Bootstrap and API Integration",
-        img: weather,
-        liveLink: "https://poetic-manatee-1b1762.netlify.app/",
-    },
-    {
-        title: "Random Quote Generator",
-        description: "React.js, Redux, API Integration, AJAX, Bootstrap, jQuery, and SCSS",
-        img: quote,
-        liveLink: "https://boring-euler-78b0c6.netlify.app/",
-    },
-    {
-        title: "Markdown Previewer",
-        description: "React.js, Bootstrap, & SCSS",
-        img: markdownPreview,
-        liveLink: "https://codepen.io/karateking/full/vYmYpqq",
-    },
-    {
-        title: "Crypto Vs. Stocks Graph",
-        description: "API Integration, Vanilla JS & Charts.js",
-        img: crypto,
-        liveLink: "https://stocktocrypto.com/",
-    },
-];
+const markdownLink = "https://codepen.io/karateking/full/vYmYpqq";
+const quoteLink = "https://boring-euler-78b0c6.netlify.app/";
+const weatherLink = "https://poetic-manatee-1b1762.netlify.app/";
+const cryptoLink = "https://stocktocrypto.com/";
+
 
 function Work() {
     return (
@@ -38,25 +17,82 @@ function Work() {
                 <h2 className="text-center text-light text-uppercase">My work</h2>
                 <div className="line mb-4"></div>
                 <div className="row mx-auto" id="work-row">
-                    {projects.map((project, index) => (
-                        <div className="col-lg-6 d-flex align-items-center mb-4" key={index}>
-                            <div className="card bg-light border-0">
-                                <div className="card-body text-center text-dark">
-                                    <img className="card-img-top" src={project.img} alt={project.title} />
-                                    <h3 className="card-title my-3 fw-bold">{project.title}</h3>
-                                    <p className="card-text">{project.description}</p>
-                                    <a
-                                        href={project.liveLink}
-                                        className="btn btn-black"
-                                        target="_blank"
-                                        rel="noreferrer"
-                                    >
-                                        View Live
-                                    </a>
+                    {/* For larger screens */}
+                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-end justify-content-md-center  mb-0 mb-lg-4">
+                        <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
+                            <img src={weather} className="hvrbox-layer_bottom" />
+                            <div className="hvrbox-layer_top">
+                                <div className="hvrbox-text"><h5 class="fw-bold">Weather App</h5><p>React.js, Bootstrap and API Integration</p><a href={weatherLink} className="btn btn-white" target="_blank">View Live</a></div>
+                            </div>
+
+                        </div>
+                        {/* For tablet and mobile */}
+                        <div className="card bg-light d-lg-none border-0 my-3">
+                            <div className="card-body text-center text-dark">
+                                <img class="card-img-top" src={weather} alt="Weather App" />
+                                <h3 className="card-title my-3 d-lg-none fw-bold">Weather App</h3>
+                                <p className="card-text mt-3 mt-lg-0 d-lg-none">React.js, Bootstrap and API Integration</p>
+                                <a href={weatherLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    {/* For larger screens */}
+                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-md-center  mb-0 mb-lg-4">
+                        <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
+                            <img src={quote} className="hvrbox-layer_bottom" />
+                            <div className="hvrbox-layer_top">
+                                <div className="hvrbox-text"><h5 class="fw-bold">Random Quote Generator</h5><p>React.js, Redux, API Integration, AJAX, Bootstrap, jQuery, and SCSS</p>
+                                    <a href={quoteLink} className="btn btn-white" target="_blank">View Live</a></div>
+                            </div>
+                        </div>
+                        {/* For tablet and mobile */}
+                        <div className="card bg-light d-lg-none border-0 my-3">
+                            <div className="card-body text-center text-dark">
+                                <img class="card-img-top" src={quote} alt="Random Quote Generator" />
+                                <h3 className="card-title my-3 d-lg-none fw-bold">Random Quote Generator</h3>
+                                <p className="card-text mt-3 mt-lg-0 d-lg-none">React.js, Redux, API Integration, AJAX, Bootstrap, jQuery, and SCSS</p>
+                                <a href={quoteLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
+                            </div>
+                        </div></div>
+                    {/* </div>
+                <div className="row  mx-auto my-3"> */}
+                    {/* For larger screens */}
+                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-end justify-content-md-center">
+                        <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
+                            <img src={markdownPreview} className="hvrbox-layer_bottom" />
+                            <div className="hvrbox-layer_top">
+                                <div className="hvrbox-text"><h5 class="fw-bold">Markdown Previewer</h5><p>React.js, Bootstrap, & SCSS</p>
+                                    <a href={markdownLink} className="btn btn-white" target="_blank">View Live</a>
                                 </div>
                             </div>
                         </div>
-                    ))}
+                        {/* For tablet and mobile */}
+                        <div className="card bg-light d-lg-none border-0 my-3">
+                            <div className="card-body text-center text-dark">
+                                <img class="card-img-top" src={markdownPreview} alt="React Markdown Previewer" />
+                                <h3 className="card-title my-3 d-lg-none fw-bold">Markdown Previewer</h3>
+                                <p className="lead card-text mt-3 mt-lg-0 d-lg-none">React, Bootstrap, & SCSS.</p>
+                                <a href={markdownLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
+                            </div>
+                        </div></div>
+                    {/* For larger screens */}
+                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-md-center">
+                        <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
+                            <img src={crypto} className="hvrbox-layer_bottom" />
+                            <div className="hvrbox-layer_top">
+                                <div className="hvrbox-text"><h5 class="fw-bold">Crypto Vs. Stocks Graph</h5><p>API Integration, Vanilla JS & Charts.js</p><a href={cryptoLink} className="btn btn-white" target="_blank">View Live</a></div>
+                            </div>
+                        </div>
+                        {/* For tablet and mobile */}
+                        <div className="card bg-light d-lg-none border-0 my-3">
+                            <div className="card-body text-center text-dark">
+                                <img class="card-img-top" src={crypto} alt="Crypto Vs. Stocks Graph" />
+                                <h3 className="card-title my-3 d-lg-none fw-bold">Crypto Vs. Stocks Graph</h3>
+                                <p className="card-text mt-3 mt-lg-0 d-lg-none">API Integration, Vanilla JS & Charts.js</p>
+                                <a href={cryptoLink} className="btn btn-black d-lg-none" target="_blank">View Live</a>
+                            </div>
+                        </div></div>
                 </div>
             </div>
         </section>
