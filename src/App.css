@@ -274,11 +274,15 @@ a {
 
 @media (min-width: 992px) {
   #home-graphic {
-    max-width: 40%;
+    max-width: 50%;
   }
 
   #work-row {
     width: 85%;
+  }
+
+  .row {
+    padding: 5rem !important;
   }
 }
 
