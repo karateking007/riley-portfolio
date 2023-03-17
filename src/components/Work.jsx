@@ -33,7 +33,7 @@ const projects = [
 
 function Work() {
     return (
-        <section className="p-0 p-md-5 py-5">
+        <section className="p-1 p-md-5 py-5">
             <div className="container">
                 <h2 className="text-center text-light text-uppercase">My work</h2>
                 <div className="line mb-4"></div>
