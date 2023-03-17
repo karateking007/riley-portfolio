@@ -18,7 +18,7 @@ function Work() {
                 <div className="line mb-4"></div>
                 <div className="row mx-auto" id="work-row">
                     {/* For larger screens */}
-                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-end justify-content-md-center">
+                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-end justify-content-md-center  mb-0 mb-lg-4">
                         <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
                             <img src={weather} className="hvrbox-layer_bottom" />
                             <div className="hvrbox-layer_top">
@@ -38,7 +38,7 @@ function Work() {
                         </div>
                     </div>
                     {/* For larger screens */}
-                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-md-center">
+                    <div className="col-lg-6 d-flex align-items-center justify-content-lg-start justify-content-md-center  mb-0 mb-lg-4">
                         <div className="d-none d-lg-flex hvrbox hvr-bounce-to-bottom">
                             <img src={quote} className="hvrbox-layer_bottom" />
                             <div className="hvrbox-layer_top">
