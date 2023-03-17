@@ -253,6 +253,10 @@ a {
   section {
     min-height: calc(100vh - 103px);
   }
+
+  #work-row>* {
+    padding: 0 !important;
+  }
 }
 
 @media (min-width: 768px) {
