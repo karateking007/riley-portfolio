@@ -257,6 +257,10 @@ a {
   #work-row>* {
     padding: 0 !important;
   }
+
+  .container {
+    padding: 0 !important;
+  }
 }
 
 @media (min-width: 768px) {
