@@ -5,7 +5,7 @@ import graphic from '../img/graphic.png';
 function Home() {
     return (
         <section className="d-flex align-items-center text-light text-center text-lg-start">
-            <div className="container">
+            <div className="container p-1">
                 <div className="d-lg-flex align-items-center justify-content-between">
                     <div className="mb-3 mb-md-4 mb-lg-0">
                         <h1 className="display-1 fw-bold" id="lg-heading">Hi,<br />I'm Riley</h1>
